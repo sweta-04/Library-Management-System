@@ -147,5 +147,7 @@ public class LibraryMain {
             System.out.println("Incorrect Username");
         }
 
+        scanner.close();
+
     }
 }
