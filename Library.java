@@ -23,6 +23,12 @@ public class Library {
         }
     }
 
+    public void displayAuthors() {
+        for (Book book : books) {
+            System.out.println(book.getAuthor());
+        }
+    }
+
     public void displayMembers() {
         for (Member member : members) {
             System.out.println(member.getName() + " (ID: " + member.getMemberId() + ")");
