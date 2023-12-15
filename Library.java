@@ -9,12 +9,14 @@ public class Library {
         this.members = new ArrayList<>();
 
         // Adding some predefined books
-        books.add(new Book("Java Programming", "John Doe", "123456789"));
-        books.add(new Book("Data Structures", "Jane Smith", "987654321"));
+        books.add(new Book("Java Programming", "John Doe", "12121"));
+        books.add(new Book("Data Structures", "Jane Smith", "98765"));
+        books.add(new Book("Python Basics", "Raghuvind Kumar", "12345"));
+        books.add(new Book("C Fundamentals", "Jane Doe", "12340"));
 
         // Adding some predefined members
-        members.add(new Member("M001", "Alice"));
-        members.add(new Member("M002", "Bob"));
+        members.add(new Member("M001", "Sweta"));
+        members.add(new Member("M002", "Nitish"));
     }
 
     public void displayBooks() {
